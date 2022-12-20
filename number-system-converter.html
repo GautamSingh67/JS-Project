@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Number System Converter</title>
+
+   <link rel="stylesheet" href="number-system-converter.css">
+   <script src="number-system-converter.js" defer></script>
+</head>
+
+<body>
+   <main>
+      <div id="main">
+      <h1>Number System Converter</h1>
+      
+      <div id="select-container">
+         <div >
+         <span class="text-class">From</span><br>
+         <select id="from-select" class="sel-option">
+            
+            <option value="binary">Binary</option>
+            <option value="decimal">Decimal</option>
+            <option value="hexadecimal">Hexadecimal</option>
+            <option value="octal">Octal</option>
+         </select><br>
+         <input type="text" id="from-input" class="text-class1" >
+         <span id="error"></span>
+      </div>
+      <div id="buton-section">
+         <button id="convert-button"class="btn-class">Convert</button>
+      <button id="swap-button" class="btn-class btnclass1">Swap</button>
+      </div>
+      <div>
+         <span class="text-class">to</span><br>
+         <select id="to-select" class="sel-option">
+            <option value="binary">Binary</option>
+            <option value="decimal">Decimal</option>
+            <option value="hexadecimal">Hexadecimal</option>
+            <option value="octal">Octal</option>
+         </select><br>
+         <input type="text" id="to-input" class="text-class1"readonly>
+      </div>
+      </div>
+   
+
+      
+
+   </div>
+   </main>
+
+
+</body>
+
+</html>
