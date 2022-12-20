@@ -8,10 +8,6 @@
   margin-bottom: 5rem;
     margin-top: 6rem;
 }
-/* main{
-  width: 100vw;
-  height: 100vh;
-} */
 main{
   display: flex;
   flex-direction: column;
